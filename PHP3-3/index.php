@@ -37,8 +37,6 @@ $result_list = $pdo->query('SELECT * FROM php33');
                 <form method="POST" action="edit.php">
                   <input type="submit" name="edit" value="編集">
                   <input type="hidden" name = edit_id value="<?php echo $row["id"]; ?>">
-                  <input type="hidden" name="edit_name" value="<?php echo $row["name"]; ?>">
-                  <input type="hidden" name="edit_comment" value="<?php echo $row["comment"]; ?>">
                 </form>
                 
               </section>
